@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-3 max-w-7xl mx-auto px-3 py-3 gap-3 text-black">
+    <main className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto px-3 py-3 gap-3 text-black">
       <div className="bg-lime-500 rounded p-3">
         <div className="flex justify-between">
           <h1 className="text-3xl mb-3">
